@@ -174,4 +174,11 @@ bot.on('message', msg=>{
     }
 })
 
+bot.on('guildMemberAdd', member =>{
+    const channel = member.guild.channels.find(channel => channel.id ==='514446545374937098')
+    if(!channel) return;
+    channel.send(`Hey cutie ${member}!`)
+})
+
+
 bot.login(process.env.BOT_TOKEN);
