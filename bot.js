@@ -169,6 +169,51 @@ bot.on('message', msg=>{
                     msg.channel.sendEmbed(embed)
                 }
             }
+            if(args[1] === 'pat'){
+                let ment = msg.mentions.users.first()
+                if(ment === undefined){
+                    msg.channel.send('no one wants a headpat')
+                }
+                else{
+                    const embed = new RichEmbed()
+                    .setTitle(`${msg.author.username.toString()} head patted ${ment.username}!`)
+                    .setImage(`https://cdn.discordapp.com/attachments/579112455075135498/610236517746737172/giphy_7.gif`)
+                    .setColor(0x4d7ac4)
+        
+                    msg.channel.sendEmbed(embed)
+                }
+            }
+            if(args[1] === 'rape'){
+                let ment = msg.mentions.users.first()
+                if(ment === undefined){
+                    msg.channel.send('dude...rape is bad')
+                }
+                else{
+                    const embed = new RichEmbed()
+                    .setTitle(`${msg.author.username.toString()} rape ${ment.username}!`)
+                    .setImage(`https://cdn.discordapp.com/attachments/579112455075135498/610237850553679891/tenor_5.gif`)
+                    .setColor(0x4d7ac4)
+        
+                    msg.channel.sendEmbed(embed)
+                }
+            }
+
+                
+                
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
             if(args[1] === 'WA'){
                 if(args[2] === 'HA'){
                     if(args[3] === 'HA'){
@@ -188,6 +233,7 @@ bot.on('message', msg=>{
             }
         break;
         
+        
     }
 })
 
@@ -196,6 +242,7 @@ bot.on('guildMemberAdd', member =>{
     if(!channel) return;
     channel.send(`Hey cutie ${member}!`)
 })
+
 
 
 bot.login(process.env.BOT_TOKEN);
