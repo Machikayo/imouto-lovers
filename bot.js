@@ -190,7 +190,7 @@ bot.on('message', msg=>{
                 }
                 else{
                     const embed = new RichEmbed()
-                    .setTitle(`${msg.author.username.toString()} rape ${ment.username}!`)
+                    .setTitle(`${msg.author.username.toString()} raped ${ment.username}!`)
                     .setImage(`https://cdn.discordapp.com/attachments/579112455075135498/610237850553679891/tenor_5.gif`)
                     .setColor(0x4d7ac4)
         
