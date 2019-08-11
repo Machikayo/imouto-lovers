@@ -1,6 +1,7 @@
 const {Client, RichEmbed} = require('discord.js')
 const bot = new Client()
 const niggas ='L'
+let state = '0'
 bot.on('ready', ()=>{
     bot.user.setActivity('Imouto hentai', { type: ('WATCHING')})
     console.log('online.')
@@ -168,7 +169,23 @@ bot.on('message', msg=>{
                     msg.channel.sendEmbed(embed)
                 }
             }
-            
+            if(args[1] === 'WA'){
+                if(args[2] === 'HA'){
+                    if(args[3] === 'HA'){
+                        state = '1'
+                        const channel = msg.guild.channels.find(channel => channel.id === '583509667284647938')
+                        var reqTimer = setTimeout(function wakeUp() {
+                            if(state === '1'){
+                            channel.send('WA HA HA');
+                            return reqTimer = setTimeout(wakeUp, 60000);
+                            }
+                        }, 60000);
+                    }
+                }
+            }
+            if(args[1] === 'stop'){
+                state = '0'
+            }
         break;
         
     }
