@@ -154,11 +154,24 @@ bot.on('message', msg=>{
                     msg.channel.sendEmbed(embed)
                 }
             }
+            if(args[1] === 'pout'){
+                let ment = msg.mentions.users.first()
+                if(ment === undefined){
+                    msg.channel.send('stop pouting')
+                }
+                else{
+                    const embed = new RichEmbed()
+                    .setTitle(`${msg.author.username.toString()} pouted at ${ment.username}!`)
+                    .setImage(`https://cdn.discordapp.com/attachments/570053851315568650/609991046155468810/tenor_4.gif`)
+                    .setColor(0x4d7ac4)
+        
+                    msg.channel.sendEmbed(embed)
+                }
+            }
             
         break;
         
     }
 })
-
 
 bot.login(process.env.BOT_TOKEN);
