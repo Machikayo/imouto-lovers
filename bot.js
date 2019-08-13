@@ -3,7 +3,7 @@ const bot = new Client()
 const niggas ='L'
 let state = '0'
 bot.on('ready', ()=>{
-    bot.user.setActivity('Imouto hentai', { type: ('WATCHING')})
+    bot.user.setActivity('Imouto hentai', { type: ('STREAMING')})
     console.log('online.')
 })
 
