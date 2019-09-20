@@ -3,7 +3,7 @@ const bot = new Client()
 const niggas ='L'
 let state = '0'
 bot.on('ready', ()=>{
-    bot.user.setActivity('Imoutos dance', { type: ('WATCHING')})
+    bot.user.setActivity('Imoutos cry', { type: ('LISTENING')})
     console.log('online.')
 })
 
@@ -222,9 +222,9 @@ bot.on('message', msg=>{
                         var reqTimer = setTimeout(function wakeUp() {
                             if(state === '1'){
                             channel.send('WA HA HA');
-                            return reqTimer = setTimeout(wakeUp, 60000);
+                            return reqTimer = setTimeout(wakeUp, 600);
                             }
-                        }, 60000);
+                        }, 600);
                     }
                 }
             }
@@ -240,7 +240,7 @@ bot.on('message', msg=>{
 bot.on('guildMemberAdd', member =>{
     const channel = member.guild.channels.find(channel => channel.id ==='514446545374937098')
     if(!channel) return;
-    channel.send(`Hey cutie ${member}!`)
+    channel.send(`Welcome yah cootie! ${member}`)
 })
 
 
