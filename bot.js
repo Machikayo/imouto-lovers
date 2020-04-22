@@ -3,7 +3,7 @@ const bot = new Client()
 const niggas ='L'
 let state = '0'
 bot.on('ready', ()=>{
-    bot.user.setActivity('Imoutos pout', { type: ('LISTENING')})
+    bot.user.setActivity('Jordan Shmack you', { type: ('WATCHING')})
     console.log('online.')
 })
 
