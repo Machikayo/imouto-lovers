@@ -15,7 +15,7 @@ bot.on('message', msg=>{
             if(args[1] === 'hug'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('Nigga who you trynna hug')
+                    msg.channel.send('who you trynna hug')
                 }
                 else{
                     const embed = new RichEmbed()
