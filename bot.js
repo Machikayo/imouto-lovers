@@ -218,7 +218,7 @@ bot.on('message', msg=>{
                 if(args[2] === 'HA'){
                     if(args[3] === 'HA'){
                         state = '1'
-                        const channel = msg.guild.channels.find(channel => channel.id === '583509667284647938')
+                        const channel = msg.guild.channels.find(channel => channel.id === '752749354674028596')
                         var reqTimer = setTimeout(function wakeUp() {
                             if(state === '1'){
                             channel.send('WA HA HA');
