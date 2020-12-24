@@ -3,7 +3,7 @@ const bot = new Client()
 const niggas ='L'
 let state = '0'
 bot.on('ready', ()=>{
-    bot.user.setActivity('H-H-HENTAI', { type: ('WATCHING')})
+    bot.user.setActivity('E GIRLS BREATHING', { type: ('LISTENING')})
     console.log('online.')
 })
 
