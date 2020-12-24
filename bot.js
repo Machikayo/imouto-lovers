@@ -222,9 +222,9 @@ bot.on('message', msg=>{
                         var reqTimer = setTimeout(function wakeUp() {
                             if(state === '1'){
                             channel.send('WA HA HA');
-                            return reqTimer = setTimeout(wakeUp, 60000);
+                            return reqTimer = setTimeout(wakeUp, 60);
                             }
-                        }, 60000);
+                        }, 60);
                     }
                 }
             }
