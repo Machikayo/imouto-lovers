@@ -3,19 +3,19 @@ const bot = new Client()
 const niggas ='L'
 let state = '0'
 bot.on('ready', ()=>{
-    bot.user.setActivity('E GIRLS BREATHING', { type: ('LISTENING')})
+    bot.user.setActivity('KICK BACK', { type: ('LISTENING')})
     console.log('online.')
 })
 
 
 bot.on('message', msg=>{
-    let args = msg.content.substring(niggas.length - 1).split(" ")
+    let args = msg.content.substring(jordan.length - 1).split(" ")
     switch(args[0]){
         case 'Jordan':
             if(args[1] === 'hug'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('who you trynna hug')
+                    msg.channel.send('why are you doing this')
                 }
                 else{
                     const embed = new RichEmbed()
@@ -30,7 +30,7 @@ bot.on('message', msg=>{
             if(args[1] === 'fuck'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('theres no one to fuck Onii-chan')
+                    msg.channel.send('why is this happening')
                 }
                 else{
                     const embed = new RichEmbed()
@@ -45,7 +45,7 @@ bot.on('message', msg=>{
             if(args[1] === 'kiss'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('they rejected your kiss, sad day')
+                    msg.channel.send('hello')
                 }
                 else{
                     const embed = new RichEmbed()
@@ -60,7 +60,7 @@ bot.on('message', msg=>{
             if(args[1] === 'kill'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('aint no one around to kill')
+                    msg.channel.send('it isnt worth it')
                 }
                 else{
                     const embed = new RichEmbed()
@@ -74,7 +74,7 @@ bot.on('message', msg=>{
             if(args[1] === 'cuddle'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('no one wants to cuddle ;-;')
+                    msg.channel.send('no')
                 }
                 else{
                     const embed = new RichEmbed()
@@ -88,7 +88,7 @@ bot.on('message', msg=>{
             if(args[1] === 'smack'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('smack yourself cunt')
+                    msg.channel.send('ok')
                 }
                 else{
                     const embed = new RichEmbed()
@@ -102,7 +102,7 @@ bot.on('message', msg=>{
             if(args[1] === 'bite'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('theres no want to bite ;-;')
+                    msg.channel.send('hm')
                 }
                 else{
                     const embed = new RichEmbed()
@@ -116,7 +116,7 @@ bot.on('message', msg=>{
             if(args[1] === 'boop'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('theres no one to boop')
+                    msg.channel.send('cringe')
                 }
                 else{
                     const embed = new RichEmbed()
@@ -130,7 +130,7 @@ bot.on('message', msg=>{
             if(args[1] === 'lick'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('youre just licking air...')
+                    msg.channel.send(':D')
                 }
                 else{
                     const embed = new RichEmbed()
@@ -144,7 +144,7 @@ bot.on('message', msg=>{
             if(args[1] === 'love'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('theres no one to love')
+                    msg.channel.send('very cringe no')
                 }
                 else{
                     const embed = new RichEmbed()
@@ -158,7 +158,7 @@ bot.on('message', msg=>{
             if(args[1] === 'pout'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('stop pouting')
+                    msg.channel.send('super cringe no')
                 }
                 else{
                     const embed = new RichEmbed()
@@ -172,7 +172,7 @@ bot.on('message', msg=>{
             if(args[1] === 'pat'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('no one wants a headpat')
+                    msg.channel.send('very weird')
                 }
                 else{
                     const embed = new RichEmbed()
@@ -183,10 +183,10 @@ bot.on('message', msg=>{
                     msg.channel.sendEmbed(embed)
                 }
             }
-            if(args[1] === 'rape'){
+            if(args[1] === 'do nothing'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('dude...rape is bad')
+                    msg.channel.send('get sturdy')
                 }
                 else{
                     const embed = new RichEmbed()
