@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node bot.js"
   },
-  "author": "Fridy",
+  "author": "Jordan",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.5.1",
