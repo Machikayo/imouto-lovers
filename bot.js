@@ -12,14 +12,14 @@ bot.on('message', msg=>{
     let args = msg.content.substring(jordan.length - 1).split(" ")
     switch(args[0]){
         case 'Jordan':
-            if(args[1] === 'hug'){
+            if(args[1] === 'Poke'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('why are you doing this')
+                    msg.channel.send('whats going on')
                 }
                 else{
                     const embed = new RichEmbed()
-                    .setTitle(`${msg.author.username.toString()} hugged ${ment.username}!`)
+                    .setTitle(`${msg.author.username.toString()} poked ${ment.username}!`)
                     .setImage(`https://cdn.discordapp.com/attachments/570053851315568650/609637268906311707/tenor_1.gif`)
                     .setColor(0x4d7ac4)
         
@@ -27,14 +27,14 @@ bot.on('message', msg=>{
             
                 }
             }
-            if(args[1] === 'fuck'){
+            if(args[1] === 'feel'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
                     msg.channel.send('why is this happening')
                 }
                 else{
                     const embed = new RichEmbed()
-                    .setTitle(`${msg.author.username.toString()} fucked ${ment.username}!`)
+                    .setTitle(`${msg.author.username.toString()} felt ${ment.username}!`)
                     .setImage(`https://cdn.discordapp.com/attachments/570053851315568650/609642055743832064/tenor_2.gif`)
                     .setColor(0x4d7ac4)
         
@@ -42,14 +42,14 @@ bot.on('message', msg=>{
             
                 }
             }
-            if(args[1] === 'kiss'){
+            if(args[1] === 'Do you hate coding?'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('hello')
+                    msg.channel.send('Yes I do')
                 }
                 else{
                     const embed = new RichEmbed()
-                    .setTitle(`${msg.author.username.toString()} kissed ${ment.username}!`)
+                    .setTitle(`${msg.author.username.toString()} jumped ${ment.username}!`)
                     .setImage(`https://cdn.discordapp.com/attachments/570053851315568650/609643265842741248/giphy_2.gif`)
                     .setColor(0x4d7ac4)
         
@@ -57,94 +57,94 @@ bot.on('message', msg=>{
             
                 }
             }
-            if(args[1] === 'kill'){
+            if(args[1] === 'interact'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('it isnt worth it')
+                    msg.channel.send('sksksk I love cats')
                 }
                 else{
                     const embed = new RichEmbed()
-                    .setTitle(`${msg.author.username.toString()} killed ${ment.username}!`)
+                    .setTitle(`${msg.author.username.toString()} interacted ${ment.username}!`)
                     .setImage(`https://cdn.discordapp.com/attachments/570053851315568650/609645305113214979/otku_c3f2bafc74382af2.gif`)
                     .setColor(0x4d7ac4)
         
                     msg.channel.sendEmbed(embed)
                 }
             }
-            if(args[1] === 'cuddle'){
+            if(args[1] === 'Do you like coding?'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('no')
+                    msg.channel.send('I love it!')
                 }
                 else{
                     const embed = new RichEmbed()
-                    .setTitle(`${msg.author.username.toString()} cuddled ${ment.username}!`)
+                    .setTitle(`${msg.author.username.toString()} dapped up ${ment.username}!`)
                     .setImage(`https://cdn.discordapp.com/attachments/570053851315568650/609647217799856130/tenor_2.gif`)
                     .setColor(0x4d7ac4)
         
                     msg.channel.sendEmbed(embed)
                 }
             }
-            if(args[1] === 'smack'){
+            if(args[1] === 'Do you love coding?'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('ok')
+                    msg.channel.send('god stop asking')
                 }
                 else{
                     const embed = new RichEmbed()
-                    .setTitle(`${msg.author.username.toString()} smacked ${ment.username}!`)
+                    .setTitle(`${msg.author.username.toString()} is tired of ${ment.username}!`)
                     .setImage(`https://cdn.discordapp.com/attachments/570053851315568650/609647640665128980/source_1.gif`)
                     .setColor(0x4d7ac4)
         
                     msg.channel.sendEmbed(embed)
                 }
             }
-            if(args[1] === 'bite'){
+            if(args[1] === 'Do you like co-'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('hm')
+                    msg.channel.send('no')
                 }
                 else{
                     const embed = new RichEmbed()
-                    .setTitle(`${msg.author.username.toString()} bit ${ment.username}!`)
+                    .setTitle(`${msg.author.username.toString()} Killed ${ment.username}!`)
                     .setImage(`https://cdn.discordapp.com/attachments/570053851315568650/609648302756986880/tenor_3.gif`)
                     .setColor(0x4d7ac4)
         
                     msg.channel.sendEmbed(embed)
                 }
             }
-            if(args[1] === 'boop'){
+            if(args[1] === 'Rihanna lyrics?'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('cringe')
+                    msg.channel.send('I dont wanna do this anymore')
                 }
                 else{
                     const embed = new RichEmbed()
-                    .setTitle(`${msg.author.username.toString()} booped ${ment.username}!`)
+                    .setTitle(`${msg.author.username.toString()} shanked ${ment.username}!`)
                     .setImage(`https://cdn.discordapp.com/attachments/570053851315568650/609648786331009044/giphy_5.gif`)
                     .setColor(0x4d7ac4)
         
                     msg.channel.sendEmbed(embed)
                 }
             }
-            if(args[1] === 'lick'){
+            if(args[1] === 'does tortuing me bring you joy?'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send(':D')
+                    msg.channel.send('yes! :D')
                 }
                 else{
                     const embed = new RichEmbed()
-                    .setTitle(`${msg.author.username.toString()} licked ${ment.username}!`)
+                    .setTitle(`${msg.author.username.toString()} Destroyed ${ment.username}!`)
                     .setImage(`https://cdn.discordapp.com/attachments/570053851315568650/609649497315737600/wLV0Z40.gif`)
                     .setColor(0x4d7ac4)
         
                     msg.channel.sendEmbed(embed)
                 }
             }
-            if(args[1] === 'love'){
+            if(args[1] === 'help'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('very cringe no')
+                    msg.channel.send('instruction unclear, adding 20 new lines of bs coding')
                 }
                 else{
                     const embed = new RichEmbed()
@@ -155,42 +155,42 @@ bot.on('message', msg=>{
                     msg.channel.sendEmbed(embed)
                 }
             }
-            if(args[1] === 'pout'){
+            if(args[1] === 'I got nothing else to add this time'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('super cringe no')
+                    msg.channel.send('Will you make this code public Jordan?')
                 }
                 else{
                     const embed = new RichEmbed()
-                    .setTitle(`${msg.author.username.toString()} pouted at ${ment.username}!`)
+                    .setTitle(`${msg.author.username.toString()} contemplates with ${ment.username}!`)
                     .setImage(`https://cdn.discordapp.com/attachments/570053851315568650/609991046155468810/tenor_4.gif`)
                     .setColor(0x4d7ac4)
         
                     msg.channel.sendEmbed(embed)
                 }
             }
-            if(args[1] === 'pat'){
+            if(args[1] === 'relax'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('very weird')
+                    msg.channel.send('we are just about done')
                 }
                 else{
                     const embed = new RichEmbed()
-                    .setTitle(`${msg.author.username.toString()} head patted ${ment.username}!`)
+                    .setTitle(`${msg.author.username.toString()} sighed of relief with ${ment.username}!`)
                     .setImage(`https://cdn.discordapp.com/attachments/579112455075135498/610236517746737172/giphy_7.gif`)
                     .setColor(0x4d7ac4)
         
                     msg.channel.sendEmbed(embed)
                 }
             }
-            if(args[1] === 'do nothing'){
+            if(args[1] === 'Is this finally the end?'){
                 let ment = msg.mentions.users.first()
                 if(ment === undefined){
-                    msg.channel.send('get sturdy')
+                    msg.channel.send('yes, now get sturdy')
                 }
                 else{
                     const embed = new RichEmbed()
-                    .setTitle(`${msg.author.username.toString()} raped ${ment.username}!`)
+                    .setTitle(`${msg.author.username.toString()} got sturdy ${ment.username}!`)
                     .setImage(`https://cdn.discordapp.com/attachments/579112455075135498/610237850553679891/tenor_5.gif`)
                     .setColor(0x4d7ac4)
         
@@ -221,14 +221,14 @@ bot.on('message', msg=>{
                         const channel = msg.guild.channels.find(channel => channel.id === '752749354674028596')
                         var reqTimer = setTimeout(function wakeUp() {
                             if(state === '1'){
-                            channel.send('WA HA HA');
-                            return reqTimer = setTimeout(wakeUp, 60);
+                            channel.send('START');
+                            return reqTimer = setTimeout(wakeUp, 10);
                             }
-                        }, 60);
+                        }, 10);
                     }
                 }
             }
-            if(args[1] === 'stop'){
+            if(args[1] === 'STOP'){
                 state = '0'
             }
         break;
@@ -240,9 +240,9 @@ bot.on('message', msg=>{
 bot.on('guildMemberAdd', member =>{
     const channel = member.guild.channels.find(channel => channel.id ==='514446545374937098')
     if(!channel) return;
-    channel.send(`Welcome yah cootie! ${member}`)
+    channel.send(`Welcome Friend! ${member}`)
 })
 
 
 
-bot.login(process.env.BOT_TOKEN);
+bot.login(process.env.BOT_TOKEN); GET YOUR PERSONALIZED TOKEN DO NOT USE MINE (you cant even use mine anyways) - with love Jordan :)
